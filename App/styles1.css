@@ -1,0 +1,31 @@
+body {
+    background-color: #f5deb3; /* Marrón claro */
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #8b4513; /* Marrón oscuro */
+}
+#usuario, #verificar {
+    margin-bottom: 10px;
+}
+select, button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d2b48c; /* Marrón medio */
+    color: #fff;
+    cursor: pointer;
+    margin-top: 50px;
+}
+button {
+    margin-right: 10px;
+}

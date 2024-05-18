@@ -1,0 +1,51 @@
+body {
+    background-color: #f5f5dc; /* Marrón claro */
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #8b4513; /* Marrón oscuro */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8b4513; /* Marrón oscuro */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #8b4513; /* Marrón oscuro */
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8b4513; /* Marrón oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #654321; /* Marrón más oscuro */
+}
